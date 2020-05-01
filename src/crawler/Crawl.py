@@ -1,4 +1,4 @@
-''' Importing libraries '''
+'''Importing libraries '''
 import tweepy
 import csv
 import pandas as pd
@@ -21,7 +21,7 @@ csvFile = open('info.csv', 'a')
 #Use csv Writer
 csvWriter = csv.writer(csvFile)
 
-for tweet in tweepy.Cursor(api.search,q="#Covid",count=100,
+for tweet in tweepy.Cursor(api.search,q="#StatusNeo",count=100,
                            lang="en",
                            since="2020-02-02", tweet_mode = 'extended').items():
     print (tweet.created_at, tweet.full_text)
