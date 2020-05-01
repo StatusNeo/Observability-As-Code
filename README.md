@@ -83,4 +83,4 @@ Follow these contribution [guidelines](CONTRIBUTING.md).
 
 ## License
 
-MIT [License](LICENSE), copyrighted to Storms In Brewing (2019-2020) 
+MIT [License](LICENSE), copyrighted to StatusNeo, forked from Storms in Brewing (2019-2020) 
