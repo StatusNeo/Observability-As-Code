@@ -26,8 +26,11 @@
     - name: Install Docker Module for Python
       pip:
         name: docker
+        
+    - name: Installing Docker-Compose
+      apt: name=docker-compose state=latest update_cache=yes
 
-    - name: Pull default Docker image
+    - name: Pull Twitter Mining Docker Image
       docker_image:
         name: shreyasingh18/statusneo
         source: pull
