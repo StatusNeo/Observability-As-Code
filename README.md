@@ -4,37 +4,37 @@
 
 ![Workflow](img/Workflow.png)
 
-[x] Setting up Apache Maven for Java project - User Interface and MapReduce functions
+## Technology Stack
 
-[x] Setting up GitHub repository workflow
+* **Git:** Version Control
 
-[x] Setting up GitHub Actions for automation
+* **GitHub:** Distributed Development and SCM
 
-[x] Creating a web crawler in Python using Tweepy library to fetch data based on some parameter.
+* **Python:** Tweepy and Pandas library for Data Mining using Twitter API and Matplotlib library for Data Visualization
 
-[] Create a User Interface
+* **Java:** Big Data cleaning and stripping workflow using MapReduce
 
-[x] Create a HDFS cluster for MapReduce functionality and program Hadoop MapReduce in Java
+* **Apache Maven:** Build Automation Tool for Java
 
-[x] Setup Hadoop Core and create Job Tracker and Task Trackers for the project
+* **GitHub Actions:** Continuous Integration tool for Apache Maven build whenever Java source code is pushed.
 
-[x] Implement MapReduce in HDFS using Java to count the frequency of significant words in Data dictionary, in Twitter string
+* **Hadoop:** Setup a HDFS cluster for Big Data Analytics.
 
-[x] Configure Apache Maven with MapReduce codes and install Apache Hadoop Jar dependency
+* **Likert Scaling:** Data Classification into 5 class model.
 
-[x] Configure MapReduce code in GitHub Actions for automation
+* **Python:** Sentimental Analysis programming
 
-[x] Automate the Big Data pipeline till MapReduce using GitHub Actions
+* **Docker:** Cross-platform package image pushed to DockerHub.
 
-[] Use Data Ingestion tools like Flume to send data from crawler to HDFS at real time
+* **DataDog:** Monitoring tool for our Docker Package.
 
-[x] WAP in Java to implement MapReduce from JSON file extracted from crawler to find the frequency of significant words - Textual Analysis
+* **Docker-Compose:** Integrating Docker Image of StatusNeo Twitter Mining and DataDog Agent
 
-[] Data Classification - create a multi-class data dictionary for sentimental analysis - currently for words (in future, we might extend it for phrases and sentences for improved accuracy)
+* **HashiCorp Packer:** Creating cross platform deployable images
 
-[x] Data Predicition - Using the KNN algorithm in Python to find the relation between tweets and their sentiments.
+* **HashiCorp Terraform:** Infrastructure as Code
 
-[x] Data Visualization - Using the Python **matplotlib** library to implement visualization.
+* **Ansible:** Configuration Management and Automated Provisioning
 
 ## Important Source files and dependencies
 
@@ -74,6 +74,40 @@
 * [HDFS Setup](hdfs_setup/hdfs-site.xml)
 * [MapReduce in Task Tracker](hdfs_setup/TaskTracker_MapReduce.xml)
 * [MapReduce in Job Tracker](hdfs_setup/JobTracker_MapReduce.xml)
+
+## Backlog
+
+[x] Setting up Apache Maven for Java project - User Interface and MapReduce functions
+
+[x] Setting up GitHub repository workflow
+
+[x] Setting up GitHub Actions for automation
+
+[x] Creating a web crawler in Python using Tweepy library to fetch data based on some parameter.
+
+[] Create a User Interface
+
+[x] Create a HDFS cluster for MapReduce functionality and program Hadoop MapReduce in Java
+
+[x] Setup Hadoop Core and create Job Tracker and Task Trackers for the project
+
+[x] Implement MapReduce in HDFS using Java to count the frequency of significant words in Data dictionary, in Twitter string
+
+[x] Configure Apache Maven with MapReduce codes and install Apache Hadoop Jar dependency
+
+[x] Configure MapReduce code in GitHub Actions for automation
+
+[x] Automate the Big Data pipeline till MapReduce using GitHub Actions
+
+[] Use Data Ingestion tools like Flume to send data from crawler to HDFS at real time
+
+[x] WAP in Java to implement MapReduce from JSON file extracted from crawler to find the frequency of significant words - Textual Analysis
+
+[] Data Classification - create a multi-class data dictionary for sentimental analysis - currently for words (in future, we might extend it for phrases and sentences for improved accuracy)
+
+[x] Data Predicition - Using the KNN algorithm in Python to find the relation between tweets and their sentiments.
+
+[x] Data Visualization - Using the Python **matplotlib** library to implement visualization.
 
 ## How to Contribute
 
