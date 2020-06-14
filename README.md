@@ -75,6 +75,20 @@
 * [MapReduce in Task Tracker](hdfs_setup/TaskTracker_MapReduce.xml)
 * [MapReduce in Job Tracker](hdfs_setup/JobTracker_MapReduce.xml)
 
+10. [Dockerfile](Dockerfile)
+
+* [Install.sh](install.sh) to provision the docker image locally before pushing it to [DockerHub](https://hub.docker.com/r/shreyasingh18/statusneo).c
+
+11. [Automation.sh](Automation.sh) Run locally on Linux based machine.
+
+12. [docker-compose.yml](docker-compose.yml) for DataDog x Docker integration.
+
+13. [Ansible Playbook](ansible/playbook.yml)
+
+14. [Packer Image Builder](packer/template.json)
+
+15. [Infrastructure as Service using Terraform](terraform)
+
 ## Backlog
 
 [x] Setting up Apache Maven for Java project - User Interface and MapReduce functions
